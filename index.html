@@ -3,122 +3,710 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Prince Milon — Musician. Official personal website.">
-  <title>Prince Milon | Musician</title>
+
+  <meta name="description"
+    content="Prince Milon — Musician, Artist & Performer. Official website.">
+
+  <title>Prince Milon | Musician & Artist</title>
+
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap"
+    rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header class="navbar">
-    <a class="logo" href="#home">PM<span>.</span></a>
-    <button class="menu-btn" aria-label="Open menu">☰</button>
-    <nav class="nav-links">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#music">Music</a>
-      <a href="#shows">Shows</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
 
-  <main>
-    <section id="home" class="hero">
-      <div class="hero-content">
-        <p class="eyebrow">MUSICIAN • ARTIST • PERFORMER</p>
-        <h1>Prince<br><em>Milon</em></h1>
-        <p class="hero-text">Creating music with emotion, rhythm and a story worth remembering.</p>
-        <div class="hero-buttons">
-          <a class="btn primary" href="#music">Explore My Music</a>
-          <a class="btn ghost" href="#contact">Get In Touch</a>
-        </div>
-      </div>
-      <div class="hero-art" aria-hidden="true">
-        <div class="vinyl">
-          <div class="vinyl-center">PM</div>
-        </div>
-        <div class="note note-one">♪</div>
-        <div class="note note-two">♫</div>
-      </div>
-    </section>
+<!-- ================= NAVBAR ================= -->
 
-    <section id="about" class="section split">
+<header class="navbar">
+
+  <a href="#home" class="brand">
+    <span class="brand-icon">PM</span>
+    <span>Prince <b>Milon</b></span>
+  </a>
+
+  <button class="menu-btn" aria-label="Open Menu">
+    <i class="fa-solid fa-bars"></i>
+  </button>
+
+  <nav class="nav-links">
+
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#music">Music</a>
+    <a href="#shows">Shows</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+
+  </nav>
+
+  <div class="nav-social">
+
+    <a href="#"><i class="fab fa-youtube"></i></a>
+    <a href="#"><i class="fab fa-spotify"></i></a>
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+
+  </div>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section id="home" class="hero">
+
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+
+    <div class="hero-tag">
+      <span></span>
+      SINGER • GUITARIST • COMPOSER
+      <span></span>
+    </div>
+
+    <h1>
+      Prince
+      <em>Milon</em>
+    </h1>
+
+    <p class="hero-subtitle">
+      MUSIC IS MY LANGUAGE
+    </p>
+
+    <p class="hero-description">
+      Creating music with emotion, rhythm and stories
+      that connect hearts and stay forever.
+    </p>
+
+    <div class="hero-buttons">
+
+      <a href="#music" class="btn btn-primary">
+        <i class="fa-solid fa-play"></i>
+        Listen To My Music
+      </a>
+
+      <a href="#about" class="btn btn-outline">
+        Discover My Story
+        <i class="fa-solid fa-arrow-down"></i>
+      </a>
+
+    </div>
+
+    <div class="hero-mini-social">
+
+      <span>FOLLOW ME</span>
+
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+      <a href="#"><i class="fab fa-spotify"></i></a>
+
+    </div>
+
+  </div>
+
+
+  <!-- Hero Artist Photo -->
+
+  <div class="hero-artist">
+
+    <div class="artist-glow"></div>
+
+    <div class="artist-frame">
+
+      <!-- নিজের ছবি এখানে বসাবে -->
+      <img src="images/prince-milon.jpg"
+        alt="Prince Milon">
+
+    </div>
+
+    <div class="artist-badge">
+
+      <div class="badge-icon">
+        <i class="fa-solid fa-music"></i>
+      </div>
+
       <div>
-        <p class="eyebrow">ABOUT ME</p>
-        <h2>Music is more than sound.</h2>
+        <small>AVAILABLE FOR</small>
+        <strong>LIVE SHOWS</strong>
       </div>
-      <div class="about-copy">
-        <p>I'm <strong>Prince Milon</strong>, a musician and performer passionate about turning feelings and experiences into music.</p>
-        <p>This website is a clean starting point for my official online presence. Add your biography, genre, instruments, achievements and story here.</p>
-        <div class="stats">
-          <div><strong>10+</strong><span>Original Works</span></div>
-          <div><strong>50+</strong><span>Live Shows</span></div>
-          <div><strong>∞</strong><span>Ideas</span></div>
-        </div>
-      </div>
-    </section>
 
-    <section id="music" class="section dark-section">
-      <div class="section-heading">
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="section about">
+
+  <div class="section-label">
+    <span>01</span>
+    ABOUT ME
+  </div>
+
+  <div class="about-grid">
+
+    <div class="about-image">
+
+      <img src="images/prince-milon-2.jpg"
+        alt="Prince Milon playing guitar">
+
+      <div class="image-decoration"></div>
+
+      <div class="experience-card">
+
+        <strong>8+</strong>
+        <span>YEARS OF<br>MUSIC</span>
+
+      </div>
+
+    </div>
+
+
+    <div class="about-content">
+
+      <h2>
+        Music is more<br>
+        than <em>sound.</em>
+      </h2>
+
+      <p class="lead">
+        Hello, I'm <strong>Prince Milon</strong> —
+        a musician, performer and music lover.
+      </p>
+
+      <p>
+        Music has always been a part of my life.
+        I believe every song has a story and every
+        melody can create a connection between people.
+      </p>
+
+      <p>
+        My journey is about exploring sounds,
+        performing live and creating music that
+        people can feel.
+      </p>
+
+
+      <div class="artist-skills">
+
         <div>
-          <p class="eyebrow">LATEST MUSIC</p>
-          <h2>Listen & Feel</h2>
+          <i class="fa-solid fa-microphone"></i>
+          <span>Singer</span>
         </div>
-        <span class="section-number">01 / 03</span>
-      </div>
-      <div class="music-grid">
-        <article class="music-card">
-          <div class="cover cover-one"><span>01</span></div>
-          <div class="music-info"><h3>Midnight Dreams</h3><p>Single • 2026</p><button class="play" data-title="Midnight Dreams">▶ Play Preview</button></div>
-        </article>
-        <article class="music-card">
-          <div class="cover cover-two"><span>02</span></div>
-          <div class="music-info"><h3>Moner Gaan</h3><p>Single • 2026</p><button class="play" data-title="Moner Gaan">▶ Play Preview</button></div>
-        </article>
-        <article class="music-card">
-          <div class="cover cover-three"><span>03</span></div>
-          <div class="music-info"><h3>After The Rain</h3><p>Single • 2025</p><button class="play" data-title="After The Rain">▶ Play Preview</button></div>
-        </article>
-      </div>
-    </section>
 
-    <section id="shows" class="section">
-      <div class="section-heading">
         <div>
-          <p class="eyebrow">LIVE</p>
-          <h2>Upcoming Shows</h2>
+          <i class="fa-solid fa-guitar"></i>
+          <span>Guitarist</span>
         </div>
-      </div>
-      <div class="show-list">
-        <div class="show"><span>OCT <b>18</b></span><div><h3>Live Music Night</h3><p>Dhaka, Bangladesh</p></div><a href="#contact">Details →</a></div>
-        <div class="show"><span>NOV <b>07</b></span><div><h3>Acoustic Sessions</h3><p>Dhaka, Bangladesh</p></div><a href="#contact">Details →</a></div>
-        <div class="show"><span>DEC <b>21</b></span><div><h3>Winter Music Festival</h3><p>Bangladesh</p></div><a href="#contact">Details →</a></div>
-      </div>
-    </section>
 
-    <section id="contact" class="contact-section">
+        <div>
+          <i class="fa-solid fa-pen-nib"></i>
+          <span>Composer</span>
+        </div>
+
+      </div>
+
+
+      <a href="#contact" class="text-btn">
+        Work With Me
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= STATS ================= -->
+
+<section class="stats-section">
+
+  <div class="stat">
+
+    <strong>10+</strong>
+    <span>Original Songs</span>
+
+  </div>
+
+  <div class="stat">
+
+    <strong>50+</strong>
+    <span>Live Performances</span>
+
+  </div>
+
+  <div class="stat">
+
+    <strong>8+</strong>
+    <span>Years Experience</span>
+
+  </div>
+
+  <div class="stat">
+
+    <strong>∞</strong>
+    <span>Music & Ideas</span>
+
+  </div>
+
+</section>
+
+
+<!-- ================= MUSIC ================= -->
+
+<section id="music" class="section music-section">
+
+  <div class="section-heading">
+
+    <div>
+
+      <div class="section-label">
+        <span>02</span>
+        MY MUSIC
+      </div>
+
+      <h2>
+        Latest <em>Releases</em>
+      </h2>
+
+    </div>
+
+    <a href="#" class="view-all">
+      View All Music
+      <i class="fa-solid fa-arrow-right"></i>
+    </a>
+
+  </div>
+
+
+  <div class="music-grid">
+
+
+    <!-- Music Card -->
+
+    <article class="music-card">
+
+      <div class="music-cover cover-one">
+
+        <span class="track-number">01</span>
+
+        <button class="play-btn"
+          data-title="Midnight Dreams">
+
+          <i class="fa-solid fa-play"></i>
+
+        </button>
+
+      </div>
+
+      <div class="music-info">
+
+        <div>
+
+          <h3>Midnight Dreams</h3>
+          <p>Original • 2026</p>
+
+        </div>
+
+        <span>03:42</span>
+
+      </div>
+
+    </article>
+
+
+    <article class="music-card">
+
+      <div class="music-cover cover-two">
+
+        <span class="track-number">02</span>
+
+        <button class="play-btn"
+          data-title="Moner Gaan">
+
+          <i class="fa-solid fa-play"></i>
+
+        </button>
+
+      </div>
+
+      <div class="music-info">
+
+        <div>
+
+          <h3>Moner Gaan</h3>
+          <p>Original • 2026</p>
+
+        </div>
+
+        <span>04:18</span>
+
+      </div>
+
+    </article>
+
+
+    <article class="music-card">
+
+      <div class="music-cover cover-three">
+
+        <span class="track-number">03</span>
+
+        <button class="play-btn"
+          data-title="After The Rain">
+
+          <i class="fa-solid fa-play"></i>
+
+        </button>
+
+      </div>
+
+      <div class="music-info">
+
+        <div>
+
+          <h3>After The Rain</h3>
+          <p>Original • 2025</p>
+
+        </div>
+
+        <span>03:56</span>
+
+      </div>
+
+    </article>
+
+
+    <article class="music-card">
+
+      <div class="music-cover cover-four">
+
+        <span class="track-number">04</span>
+
+        <button class="play-btn"
+          data-title="Notun Shokal">
+
+          <i class="fa-solid fa-play"></i>
+
+        </button>
+
+      </div>
+
+      <div class="music-info">
+
+        <div>
+
+          <h3>Notun Shokal</h3>
+          <p>Original • 2025</p>
+
+        </div>
+
+        <span>04:02</span>
+
+      </div>
+
+    </article>
+
+  </div>
+
+</section>
+
+
+<!-- ================= SHOWS ================= -->
+
+<section id="shows" class="shows-section">
+
+  <div class="section show-section-inner">
+
+    <div class="section-heading">
+
       <div>
-        <p class="eyebrow">CONTACT</p>
-        <h2>Let's make<br><em>music.</em></h2>
-      </div>
-      <div class="contact-card">
-        <p>For bookings, collaborations and music-related inquiries:</p>
-        <a class="email" href="mailto:princemilon.info@gmail.com">princemilon.info@gmail.com</a>
-        <div class="socials">
-          <a href="#" aria-label="Facebook">Facebook</a>
-          <a href="#" aria-label="Instagram">Instagram</a>
-          <a href="#" aria-label="YouTube">YouTube</a>
+
+        <div class="section-label">
+          <span>03</span>
+          LIVE
         </div>
+
+        <h2>
+          Upcoming <em>Shows</em>
+        </h2>
+
       </div>
-    </section>
-  </main>
 
-  <footer>
-    <span>© 2026 Prince Milon. All rights reserved.</span>
-    <span>Official Website</span>
-  </footer>
+      <a href="#" class="view-all">
+        All Events
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
 
-  <script src="script.js"></script>
+    </div>
+
+
+    <div class="shows-list">
+
+
+      <div class="show-item">
+
+        <div class="show-date">
+          <small>OCT</small>
+          <strong>18</strong>
+        </div>
+
+        <div class="show-info">
+          <h3>Live Music Night</h3>
+          <p>
+            <i class="fa-solid fa-location-dot"></i>
+            Dhaka, Bangladesh
+          </p>
+        </div>
+
+        <div class="show-time">
+          07:00 PM
+        </div>
+
+        <a href="#contact" class="show-arrow">
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+      </div>
+
+
+      <div class="show-item">
+
+        <div class="show-date">
+          <small>NOV</small>
+          <strong>07</strong>
+        </div>
+
+        <div class="show-info">
+          <h3>Acoustic Sessions</h3>
+          <p>
+            <i class="fa-solid fa-location-dot"></i>
+            Dhaka, Bangladesh
+          </p>
+        </div>
+
+        <div class="show-time">
+          06:30 PM
+        </div>
+
+        <a href="#contact" class="show-arrow">
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+      </div>
+
+
+      <div class="show-item">
+
+        <div class="show-date">
+          <small>DEC</small>
+          <strong>21</strong>
+        </div>
+
+        <div class="show-info">
+          <h3>Winter Music Festival</h3>
+          <p>
+            <i class="fa-solid fa-location-dot"></i>
+            Bangladesh
+          </p>
+        </div>
+
+        <div class="show-time">
+          08:00 PM
+        </div>
+
+        <a href="#contact" class="show-arrow">
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= GALLERY ================= -->
+
+<section id="gallery" class="section gallery-section">
+
+  <div class="section-heading">
+
+    <div>
+
+      <div class="section-label">
+        <span>04</span>
+        GALLERY
+      </div>
+
+      <h2>
+        Moments & <em>Memories</em>
+      </h2>
+
+    </div>
+
+  </div>
+
+
+  <div class="gallery-grid">
+
+    <div class="gallery-item large">
+      <img src="images/gallery-1.jpg" alt="Live performance">
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/gallery-2.jpg" alt="Music performance">
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/gallery-3.jpg" alt="Prince Milon">
+    </div>
+
+    <div class="gallery-item wide">
+      <img src="images/gallery-4.jpg" alt="Live show">
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="contact-section">
+
+  <div class="contact-content">
+
+    <div class="section-label">
+      <span>05</span>
+      GET IN TOUCH
+    </div>
+
+    <h2>
+      Let's make<br>
+      <em>music.</em>
+    </h2>
+
+    <p>
+      For bookings, collaborations, events or
+      music-related inquiries, feel free to contact me.
+    </p>
+
+    <div class="contact-details">
+
+      <a href="mailto:princemilon.info@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        princemilon.info@gmail.com
+      </a>
+
+      <a href="#">
+        <i class="fa-solid fa-location-dot"></i>
+        Dhaka, Bangladesh
+      </a>
+
+    </div>
+
+    <div class="contact-social">
+
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+      <a href="#"><i class="fab fa-spotify"></i></a>
+
+    </div>
+
+  </div>
+
+
+  <div class="contact-form">
+
+    <form>
+
+      <div class="form-row">
+
+        <input type="text"
+          placeholder="Your Name"
+          required>
+
+        <input type="email"
+          placeholder="Your Email"
+          required>
+
+      </div>
+
+      <input type="text"
+        placeholder="Subject">
+
+      <textarea
+        placeholder="Your Message"
+        rows="6"></textarea>
+
+      <button type="submit" class="btn btn-primary">
+        Send Message
+        <i class="fa-solid fa-paper-plane"></i>
+      </button>
+
+    </form>
+
+  </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+  <div class="footer-brand">
+
+    <span class="brand-icon">PM</span>
+
+    <div>
+      <strong>Prince Milon</strong>
+      <small>Musician • Artist • Performer</small>
+    </div>
+
+  </div>
+
+
+  <div class="footer-copy">
+    © 2026 Prince Milon. All rights reserved.
+  </div>
+
+
+  <div class="footer-links">
+
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#music">Music</a>
+    <a href="#contact">Contact</a>
+
+  </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
 </body>
 </html>
